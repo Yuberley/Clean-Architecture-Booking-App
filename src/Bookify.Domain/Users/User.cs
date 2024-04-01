@@ -5,7 +5,12 @@ namespace Bookify.Domain.Users;
 
 public sealed class User : Entity
 {
-    private User(Guid id, FirstName firstName, LastName lastName, Email email) : base(id)
+    private User(
+        Guid id, 
+        FirstName firstName, 
+        LastName lastName, 
+        Email email
+        ) : base(id)
     {
         FirstName = firstName;
         LastName = lastName;
@@ -16,7 +21,8 @@ public sealed class User : Entity
     public LastName LastName { get; private set; }
     public Email Email { get; private set; }
     
-    public static User Create(Guid id, FirstName firstName, LastName lastName, Email email)
+    public static User Create(Guid id, 
+        FirstName firstName, LastName lastName, Email email)
     {
         var user = new User(id, firstName, lastName, email);
         user.AddDomainEvent(new UserCreateDomainEvent(user.Id));

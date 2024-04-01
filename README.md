@@ -1,7 +1,3 @@
----
-sidebar_position: 1
----
-
 # Arquitectura utilizada
 
 ## Iniciando con la Arquitectura utilizada en el proyecto
