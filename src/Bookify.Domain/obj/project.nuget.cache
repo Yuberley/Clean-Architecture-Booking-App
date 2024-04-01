@@ -1,8 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "e2ozAdJM5gazEFX7Dm2zX59DsZcah/1cjlYadDnXCDYp/dOCy4kxU2PA68xscO8sYlbwubb0rti6eEdyEB6sDw==",
+  "dgSpecHash": "38S1y79IRWdyOoGM/WlKqUnSd521sM8PMlmxhBNuDyG4iLRy76afb4upk1ZqaDMPL/JpaRc+9FuhrTAKMOyx7w==",
   "success": true,
   "projectFilePath": "C:\\Users\\yuber\\Desktop\\Bookify\\src\\Bookify.Domain\\Bookify.Domain.csproj",
-  "expectedPackageFiles": [],
+  "expectedPackageFiles": [
+    "C:\\Users\\yuber\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512"
+  ],
   "logs": []
 }
