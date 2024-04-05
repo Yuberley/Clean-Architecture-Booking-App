@@ -9,7 +9,7 @@ internal sealed class ReserveBookingCommandHandler : ICommandHandler<ReserveBook
 {
     private readonly IUserRepository _userRepository;
     private readonly IApartmentRepository _apartmentRepository;
-    private readonly IBookingRepository _bookingRepository;
+    // private readonly IBookingRepository _bookingRepository;
     
     public Task<Result<Guid>> Handle(ReserveBookingCommand request, CancellationToken cancellationToken)
     {
